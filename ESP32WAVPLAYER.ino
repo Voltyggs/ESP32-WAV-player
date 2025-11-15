@@ -295,7 +295,7 @@ void showOLED() {
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("initializng the uh esp32");
+  Serial.println("initializng the esp32");
 
   pinMode(MOSFET_PIN, OUTPUT);
   pinMode(BUTTON_PLAY, INPUT_PULLUP);
